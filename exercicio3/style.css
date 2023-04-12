@@ -23,3 +23,13 @@ aside{
 article{
   margin: 10px 0;
 }
+main{
+  font-family: Helvetica, sans-serif;
+  width: 100vw;
+}
+section{
+  width: 60vw;
+}
+aside{
+  width: 40vw;
+}
