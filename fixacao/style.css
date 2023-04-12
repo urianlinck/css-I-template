@@ -1,0 +1,43 @@
+/* O header e o footer devem possuir 40px de altura, e padding de 10px em todas as direções. O header deve ser laranja, e o footer preto. Ambos com letras brancas.
+O header deve possuir uma borda preta na parte de baixo.
+A área main deve possuir margin de 15px em todas as direções, padding de 20px em cima e por baixo, e 30px dos lados. Além disso, deve possuir largura de 90vw e altura de 80vh.
+Os articles devem possuir margem de 25px para cima e para baixo.
+A fonte dos cabeçalhos deve ser “Arial”, e a dos parágrafos deve ser “Helvetica”.
+Todos os elementos com a classe “destaque” devem estar escritos em laranja. */
+
+header{
+    height: 40px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border-bottom: 1px solid black;
+
+}
+footer{
+    height: 40px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+main{
+    margin: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 90vw;
+    height: 80vh;
+}
+article{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+h2{
+    font-family: Arial;
+}
+p{
+    font-family: Helvetica;
+}
+span{
+    color: orange;
+}
